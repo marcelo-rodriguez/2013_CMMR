@@ -1,0 +1,24 @@
+Instructions to use the kern2nm.m function: 
+
+1 - unzip the EFSC German and Chinese songs (the subsets have been filtered so that no songs with rests are included). 
+
+2 - run the kern2nm.m function. At this time only a relatively small number of songs can be processed at a time (<100). The textread function of MATLAB does not seem to be able to handle more large number of txt files without crashing.
+
+	Example: 
+
+	germanAllerkbd = kern2nm()
+	germandva = kern2nm()
+	germanKinder = kern2nm()
+	germanFink = kern2nm()
+	germanZuccal = kern2nm()
+	germanVariant = kern2nm() 
+
+3 - contactate the resulting subests. 
+
+	Example 
+
+	combinedGerman = [germanAllerkbd,germanAltdeu, germanBallad, germanBoheme, germandva, germanErk, germanFink, germanKinder, germanVariant, germanZuccal]
+	
+Good luck! 
+
+Marcelo Rodríguez-López, Utrecht, 10/10/2013.
